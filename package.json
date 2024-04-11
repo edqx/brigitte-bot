@@ -1,0 +1,14 @@
+{
+  "name": "brigitte-bot",
+  "description": "Bot for reacting with :brigitte: and :lindholm: for shuffled, random words each time",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
