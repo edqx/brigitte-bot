@@ -2,6 +2,11 @@
   "name": "brigitte-bot",
   "description": "Bot for reacting with :brigitte: and :lindholm: for shuffled, random words each time",
   "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsx index.ts",
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
