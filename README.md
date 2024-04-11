@@ -1,18 +1,19 @@
-# brigitte-bot
+# Brigitte Bot
 
-Brigitte bot is a bot that reacts with an emoji to messages that contain a word in a given word list. The word can be shuffled each time or sequentially selected as the previous one is used.
+Brigitte Bot is a bot that reacts with an emoji to messages that contain a word in a given word list. The word can be shuffled each time or sequentially selected as the previous one is used.
 
 Setup:
+
+`.env`:
 ```env
-# .env
 TOKEN="<your bot token>"
 ```
 
+`config.json`:
 ```json
-config.json
 {
-    "words_list": "./words.txt",
-    "emoji_ids": [":phoebe_giddy:1017890901097451630"],
-    "strategy": "shuffle"
+    "words_list": "<path to file containing words, relative to cwd>",
+    "emoji_ids": ["<emoji to react with>"],
+    "strategy": "shuffle" // or, "sequential"
 }
 ```
